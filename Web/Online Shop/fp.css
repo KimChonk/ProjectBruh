@@ -42,10 +42,10 @@
     top: 22px;
     color: #fff;
   }
-.background {
+  .background {
     width: 100%;
     height: 100vh;
-    background-image: url('./image/register.jpg');
+    background-image: url('./image/Forget.jpg');
     background-position: center;
     background-size: cover;
   }
@@ -56,7 +56,7 @@
     width: 75%;
     height: 75%;
     transform: translate(-50%, -50%);
-    background-image: url('./image/register.jpg');
+    background-image: url('./image/Forget.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -111,25 +111,25 @@
     margin-left: 20px;
     color: #eeff00;
   }
-  .Register {
+  .Forgot {
     width: 450px;
     position: relative;
     padding: 100px 30px;
     backdrop-filter: blur(20px);
   }
-  .Register h2 {
+  .Forgot h2 {
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
     color: #ffffff;
   }
-  .Register .input {
+  .Forgot .input {
     position: relative;
     width: 100%;
     height: 30px;
     margin-bottom: 40px;
   }
-  .Register .input .input1 {
+  .Forgot .input .input1 {
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -138,8 +138,8 @@
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 2px solid #fff;
-    color: #fff;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
     width: 100%;
     height: 100%;
   }
@@ -147,7 +147,7 @@
     color: #ffffff;
     font-size: 18px;
   }
-  .Register .input i {
+  .Forgot .input i {
     position: relative;
     right: -360px;
     bottom: 27px;
@@ -168,7 +168,7 @@
     color: #eeff00;
     text-decoration: underline;
   }
-  .Register .button {
+  .Forgot .button {
     width: 100%;
     height: 40px;
     margin-bottom: 15px;
@@ -176,8 +176,8 @@
   button {
     width: 100%;
     height: 40px;
-    background-color: #ffffff;
-    border: none;
+    background-color: #ffffff ;
+    border:  none;
     outline: none;
     font-size: 20px;
     font-weight: 700;
@@ -187,7 +187,6 @@
   button :active {
     font-size: 25px;
   }
-
   @keyframes myfade {
     from {opacity: 0; transform: translateY(50px);}
     to {opacity: 1; transform: translateY(0);}
